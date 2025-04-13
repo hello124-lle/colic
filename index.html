@@ -86,6 +86,58 @@
             font-size: 1.1em;
         }
 
+        .team-section {
+            margin: 50px auto;
+            max-width: 900px;
+            text-align: center;
+            background: #fff0f5;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .team-section h2 {
+            color: #ad1457;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .member {
+            background: #fce4ec;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, background 0.3s;
+        }
+
+        .member:hover {
+            transform: scale(1.05);
+            background: #f8bbd0;
+        }
+
+        .member img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .nickname {
+            display: block;
+            margin-top: 5px;
+            font-style: italic;
+            color: #6a1b9a;
+            font-size: 0.95em;
+        }
+
         footer {
             text-align: center;
             padding: 40px 20px 20px;
@@ -158,10 +210,23 @@
         <img src="https://rukminim2.flixcart.com/image/850/1000/ktizdzk0/wallpaper/p/w/9/58-58-1-sleeping-baby-stickersyard-original-imag6uxauk6fbpb5.jpeg?q=90&crop=false" alt="Floating Baby" class="floating-sticker">
     </div>
 
-    <footer>
-        <img src="https://rukminim2.flixcart.com/image/850/1000/ktizdzk0/wallpaper/p/w/9/58-58-1-sleeping-baby-stickersyard-original-imag6uxauk6fbpb5.jpeg?q=90&crop=false" alt="Sleeping Baby Footer" class="footer-sticker">
-        <p>&copy; 2025 Group 5 | 2BSN-D – Colic Awareness Video Presentation</p>
-    </footer>
-
-</body>
-</html>
+    <!-- 👩‍⚕️ Meet the Team Section -->
+    <div class="team-section">
+        <h2>Meet the Team 💗🩺</h2>
+        <div class="team-grid">
+            <div class="member">
+                <img src="https://cdn-icons-png.flaticon.com/128/921/921347.png" alt="Sanchez Avatar">
+                <p><strong>Sanchez</strong></p>
+                <span class="nickname">"Chie"</span>
+            </div>
+            <div class="member">
+                <img src="https://cdn-icons-png.flaticon.com/128/921/921314.png" alt="Surio Avatar">
+                <p><strong>Surio</strong></p>
+                <span class="nickname">"Yana"</span>
+            </div>
+            <div class="member">
+                <img src="https://cdn-icons-png.flaticon.com/128/921/921356.png" alt="Samson Avatar">
+                <p><strong>Samson</strong></p>
+                <span class="nickname">"Sam"</span>
+            </div>
+            <div
