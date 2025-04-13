@@ -6,34 +6,80 @@
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(to right, #f8bbd0, #ce93d8); 
-            color: #333;
+            background: linear-gradient(to right, #fce4ec, #e1bee7);
+            color: #444;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
+
         header {
-            background-color: #ab47bc;
+            background-color: #ba68c8;
             color: white;
-            padding: 20px;
+            padding: 30px 20px;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
+
+        header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
         .container {
-            padding: 30px;
+            padding: 40px 25px;
             max-width: 900px;
-            margin: auto;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin: 40px auto;
+            background-color: #fffafc;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
         }
+
         h2 {
-            color: #d81b60;
+            color: #c2185b;
+            margin-top: 30px;
+            border-bottom: 2px solid #f8bbd0;
+            padding-bottom: 5px;
         }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+        }
+
         footer {
             text-align: center;
-            padding: 15px;
-            background-color: #f48fb1;
+            padding: 20px;
+            background-color: #f8bbd0;
             color: white;
-            margin-top: 40px;
+            margin-top: 60px;
+            font-size: 0.95em;
+        }
+
+        /* Subtle animations and transitions */
+        h2, p, li {
+            transition: all 0.3s ease-in-out;
+        }
+
+        h2:hover {
+            color: #ad1457;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            .container {
+                padding: 25px 15px;
+            }
         }
     </style>
 </head>
@@ -74,7 +120,7 @@
     </div>
 
     <footer>
-        &copy; 2025 Group 5 | 2BSN-D - Video 
+        &copy; 2025 Group 5 | 2BSN-D – Colic Awareness Video Presentation
     </footer>
 
 </body>
