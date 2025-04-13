@@ -51,12 +51,20 @@
             position: relative;
         }
 
-        .baby-sticker {
+        .main-image {
+            width: 100%;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .floating-sticker {
             position: absolute;
-            bottom: -40px;
+            top: -30px;
             right: -20px;
             width: 80px;
-            opacity: 0.8;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
         }
 
         h2 {
@@ -80,7 +88,7 @@
 
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 40px 20px 20px;
             background-color: #f8bbd0;
             color: white;
             margin-top: 60px;
@@ -89,11 +97,10 @@
         }
 
         .footer-sticker {
-            width: 50px;
-            position: absolute;
-            top: -25px;
-            left: 50%;
-            transform: translateX(-50%);
+            width: 100px;
+            margin-top: -50px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
         @media (max-width: 600px) {
@@ -103,11 +110,8 @@
             .container {
                 padding: 25px 15px;
             }
-            .sticker {
-                width: 40px;
-            }
-            .baby-sticker {
-                width: 60px;
+            .sticker, .floating-sticker, .footer-sticker {
+                width: 50px;
             }
         }
     </style>
@@ -115,13 +119,15 @@
 <body>
 
     <header>
-        <img src="https://cdn-icons-png.flaticon.com/128/2331/2331970.png" alt="Heart Sticker" class="sticker left">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ_8ljgRZ11nFSrouIURgrK0iXYZFYtgh8IA&s" alt="Cute Baby Sticker" class="sticker left">
         <h1>Colic Awareness Campaign</h1>
         <p>Presented by Group 5 – Sanchez, Surio, Samson, Sarmiento, Semira, & Soberano | 2BSN-D</p>
-        <img src="https://cdn-icons-png.flaticon.com/128/4150/4150897.png" alt="Nurse Sticker" class="sticker right">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ_8ljgRZ11nFSrouIURgrK0iXYZFYtgh8IA&s" alt="Cute Baby Sticker" class="sticker right">
     </header>
 
     <div class="container">
+        <img src="https://drgolly.com/wp-content/uploads/2022/08/baby-crying-1024x683.jpg" alt="Crying Baby" class="main-image">
+
         <h2>What is Colic?</h2>
         <p>
             Colic is a common condition in infants where they cry for extended periods without an obvious cause. It usually starts a few weeks after birth and often improves by the age of 3-4 months. Though it's not harmful, it can be very distressing for both babies and parents.
@@ -149,12 +155,12 @@
             As nursing students from 2BSN-D, Group 5 – Colic, our goal is to raise awareness about colic and support families by providing accurate, compassionate, and helpful information.
         </p>
 
-        <img src="https://cdn-icons-png.flaticon.com/128/4581/4581897.png" alt="Baby Sticker" class="baby-sticker">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/ktizdzk0/wallpaper/p/w/9/58-58-1-sleeping-baby-stickersyard-original-imag6uxauk6fbpb5.jpeg?q=90&crop=false" alt="Floating Baby" class="floating-sticker">
     </div>
 
     <footer>
-        <img src="https://cdn-icons-png.flaticon.com/128/3465/3465109.png" alt="Love Sticker" class="footer-sticker">
-        &copy; 2025 Group 5 | 2BSN-D – Colic Awareness Video Presentation
+        <img src="https://rukminim2.flixcart.com/image/850/1000/ktizdzk0/wallpaper/p/w/9/58-58-1-sleeping-baby-stickersyard-original-imag6uxauk6fbpb5.jpeg?q=90&crop=false" alt="Sleeping Baby Footer" class="footer-sticker">
+        <p>&copy; 2025 Group 5 | 2BSN-D – Colic Awareness Video Presentation</p>
     </footer>
 
 </body>
