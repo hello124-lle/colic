@@ -18,13 +18,27 @@
             color: white;
             padding: 30px 20px;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
         }
 
         header h1 {
             font-family: 'Georgia', serif;
             font-size: 2.5em;
             margin-bottom: 10px;
+        }
+
+        .sticker {
+            width: 60px;
+            position: absolute;
+            top: 10px;
+        }
+
+        .sticker.left {
+            left: 15px;
+        }
+
+        .sticker.right {
+            right: 15px;
         }
 
         .container {
@@ -34,6 +48,15 @@
             background-color: #fffafc;
             border-radius: 20px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        .baby-sticker {
+            position: absolute;
+            bottom: -40px;
+            right: -20px;
+            width: 80px;
+            opacity: 0.8;
         }
 
         h2 {
@@ -62,15 +85,15 @@
             color: white;
             margin-top: 60px;
             font-size: 0.95em;
+            position: relative;
         }
 
-        /* Subtle animations and transitions */
-        h2, p, li {
-            transition: all 0.3s ease-in-out;
-        }
-
-        h2:hover {
-            color: #ad1457;
+        .footer-sticker {
+            width: 50px;
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         @media (max-width: 600px) {
@@ -80,14 +103,22 @@
             .container {
                 padding: 25px 15px;
             }
+            .sticker {
+                width: 40px;
+            }
+            .baby-sticker {
+                width: 60px;
+            }
         }
     </style>
 </head>
 <body>
 
     <header>
+        <img src="https://cdn-icons-png.flaticon.com/128/2331/2331970.png" alt="Heart Sticker" class="sticker left">
         <h1>Colic Awareness Campaign</h1>
         <p>Presented by Group 5 – Sanchez, Surio, Samson, Sarmiento, Semira, & Soberano | 2BSN-D</p>
+        <img src="https://cdn-icons-png.flaticon.com/128/4150/4150897.png" alt="Nurse Sticker" class="sticker right">
     </header>
 
     <div class="container">
@@ -117,9 +148,12 @@
         <p>
             As nursing students from 2BSN-D, Group 5 – Colic, our goal is to raise awareness about colic and support families by providing accurate, compassionate, and helpful information.
         </p>
+
+        <img src="https://cdn-icons-png.flaticon.com/128/4581/4581897.png" alt="Baby Sticker" class="baby-sticker">
     </div>
 
     <footer>
+        <img src="https://cdn-icons-png.flaticon.com/128/3465/3465109.png" alt="Love Sticker" class="footer-sticker">
         &copy; 2025 Group 5 | 2BSN-D – Colic Awareness Video Presentation
     </footer>
 
